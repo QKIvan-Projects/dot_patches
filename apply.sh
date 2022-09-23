@@ -50,11 +50,6 @@ case $1 in
      ;;
 esac
 
-# GameSpace
-if [ -d $PD/patches/$1/packages_apps_GameSpace ] && [ ! -d packages/apps/GameSpace ] ;then
-git clone https://github.com/crdroidandroid/android_packages_apps_GameSpace -b 12.1 packages/apps/GameSpace
-fi
-
 echo "Adapt $PROJECT for $DEVICE"
 echo "Executing in 5 seconds - CTRL-C to exit"
 echo ""
