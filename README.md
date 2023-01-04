@@ -8,7 +8,7 @@ cd sourcedirectory
 
 Clone this repo
 ```shell
-git clone https://github.com/coolscode/patches -b master anydirname
+git clone https://github.com/coolscode/patches -b master dotos
 ```
 
 Then apply the patches
@@ -20,9 +20,7 @@ There maybe more in the future...
 
 ## Support Project
 ### dotOS 6.0
-- Add udfps support and framworks dimming
 - StatusBar Lyric from [exTHmUI](https://github.com/exthmui) and [Miku-UI](https://github.com/Miku-UI)
-- Adapt for Cezanne
-- Maybe more...
+- Chinese translations
   
 \* Main maintenance branch
